@@ -33,6 +33,7 @@ width: 285px;
 }
 header .matt {
     background: #cccccc;
+    /* background-image: url(images/header.jpg); */
     height: 500px;
     top: 0;
     width: 100%;
