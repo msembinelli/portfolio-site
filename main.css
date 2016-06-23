@@ -18,22 +18,13 @@ body {
     src: url("fonts/Neutra-Display-Light.ttf") format("truetype");
 }
 
-/*.menu {
-    background: #202024 url('black.jpg') repeat left top;
-    left: -285px;
-    /* start off behind the scenes */
-
-height: 100%;
-position: fixed;
-width: 285px;
-
-}
 */ header {
     position: fixed;
 }
 header .matt {
     background: #cccccc;
     /* background-image: url(images/header.jpg); */
+
     height: 500px;
     top: 0;
     width: 100%;
@@ -73,7 +64,7 @@ header .btn {
     width: 100%;
     background: #fff;
     position: relative;
-    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
     z-index: 3;
     padding-top: 75px;
     padding-bottom: 75px;
@@ -87,44 +78,41 @@ header .btn {
     font-size: 2em;
     text-transform: uppercase;
 }
+#container .projects {
+    width: 50%;
+    padding: 250px 20px 40px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+}
 
 #container .projects {
-width: 780px;
-padding: 250px 20px 40px;
-overflow: hidden;
-margin: 0 auto;
-display: block;
-}
-
-#container .projects img {
-width: 780px;
-}
-
-#container .projects{
     text-align: center;
     color: #000;
 }
-
-#container .projects h2{
+#container .projects h2 {
     text-transform: uppercase;
     font-size: 40px;
+    text-align: center;
+    display: block;
 }
-
-#container .projects h3{
+#container .projects h3 {
     font-size: 2em;
+    text-align: center;
+    display: block;
 }
-
-#container .projects p{
+#container .projects p {
     font-size: 26px;
     font-family: NeutraDisplayLight;
+    text-align: center;
+    display: block;
 }
 
 /* Don't display gradient bars on carousel */
 #container .projects .carousel-control.left, .carousel-control.right {
     background-image: none
 }
+
 /* Override carousel-indicators so they don't display */
-.carousel-indicators li {
-}
-.carousel-indicators .active {
-}
+.carousel-indicators li {}
+.carousel-indicators .active {}
