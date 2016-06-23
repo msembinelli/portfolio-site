@@ -24,7 +24,6 @@ body {
 header .matt {
     background: #cccccc;
     /* background-image: url(images/header.jpg); */
-
     height: 500px;
     top: 0;
     width: 100%;
@@ -80,26 +79,19 @@ header .btn {
 }
 #container .projects {
     width: 50%;
-    padding: 250px 20px 40px;
-    overflow: hidden;
+    padding: 350px 20px 40px;
     margin: 0 auto;
     display: block;
-}
-
-#container .projects {
     text-align: center;
     color: #000;
 }
+
 #container .projects h2 {
     text-transform: uppercase;
     font-size: 40px;
-    text-align: center;
-    display: block;
 }
 #container .projects h3 {
     font-size: 2em;
-    text-align: center;
-    display: block;
 }
 #container .projects p {
     font-size: 26px;
@@ -116,3 +108,32 @@ header .btn {
 /* Override carousel-indicators so they don't display */
 .carousel-indicators li {}
 .carousel-indicators .active {}
+
+#container .about {
+    width: 80%;
+    height-max: 100%;
+    padding: 150px 20px 40px;
+    margin: 0 auto;
+    display: block;
+    overflow: auto;
+    text-align: center;
+    color: #000;
+}
+
+#container .about h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+}
+
+#container .about p {
+    font-size: 22px;
+    font-family: NeutraDisplayLight;
+    text-align: justify;
+    line-height: 1.5em;
+    padding-bottom: 100px;
+}
+
+#container .about img {
+    height: 480px;
+}
