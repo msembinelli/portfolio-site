@@ -1,148 +1,87 @@
-body {
-    left: 0;
+body, html {
     margin: 0;
-    position: relative;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    padding: 0;
+    width: 100%;
+}
+body {
     overflow-x: hidden;
+    font: normal 16px/24px "NeutraDisplayBold", "Helvetica Neue", Helvetica, sans-serif;
+}
+@font-face {
+    font-family: NeutraDisplayBold;
+    font-weight: normal;
+    src: url("fonts/Neutra-Display-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: NeutraDisplayLight;
+    font-weight: bold;
+    src: url("fonts/Neutra-Display-Light.ttf") format("truetype");
 }
 
-.col-centered{
-    float: none;
-    margin: 0 auto;
-}
-
-.menu {
+/*.menu {
     background: #202024 url('black.jpg') repeat left top;
     left: -285px;
     /* start off behind the scenes */
-    height: 100%;
+
+height: 100%;
+position: fixed;
+width: 285px;
+
+}
+*/ header {
     position: fixed;
-    width: 285px;
 }
-.jumbotron input {
-    width: 25px;
-    height: 25px;
-    position: relative;
-    left: 50px;
-    border: 10px;
-    outline: none;
-}
-.menu ul {
-    border-top: 1px solid #636366;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-.menu li {
-    border-bottom: 1px solid #636366;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 45px;
-    padding-bottom: 3px;
-    padding-left: 20px;
-    padding-top: 3px;
-}
-.menu a {
-    color: #fff;
-    font-size: 15px;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-.icon-close {
-    cursor: pointer;
-    padding-left: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.icon-close img{
-    height: 25px;
-    width: 25px;
-}
-.icon-menu {
-    color: #fff;
-    cursor: pointer;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    padding-bottom: 25px;
-    padding-left: 50px;
-    padding-top: 0px;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-.icon-menu i {
-    margin-right: 5px;
-}
-.jumbotron {
-    display: flex;
-    align-items: right;
-    background-image: url('holy_shit_amazing_render_batman_poverty_edition_new.JPG');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    /*  background-attachment: fixed;*/
-    color: #ffffff;
+header .matt {
+    background: #cccccc;
     height: 500px;
-    text-shadow: 0.25px 0.25px 0.25px #000000;
-}
-.jumbotron h2 {
-    padding-top: 150px;
-    padding-right: 100px;
-    font-size: 60px;
-    font-weight: 700;
-    margin: 0;
-    color: #fff;
-}
-.jumbotron h3 {
-    margin: 0 0 20px;
-    padding-right: 100px;
-    color: #fff;
-}
-section1 .row img {
-    display: block;
-    margin: 0 auto;
+    top: 0;
     width: 100%;
+    padding-top: 130px;
 }
-section2 .row img {
+header h2 {
+    color: #000;
+    text-align: center;
     display: block;
-    margin: 0 auto;
+    font-size: 3em;
+    line-height: 1em;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+header h3 {
+    display: block;
+    font-size: 18px;
+    font-weight: normal;
+    color: #000;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: NeutraDisplayLight;
+}
+header .social {
+    display: block;
+    text-align: center;
+    padding-bottom: 30px;
+}
+header .btn {
+    font-size: 18px;
+    padding: 0;
+    color: #000;
+}
+#container {
     width: 100%;
+    background: #fff;
+    position: relative;
+    z-index: 3;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
-section2 .row ul {
-    list-style: none;
+#container .navigation {
+    display: block;
+    text-align: center;
 }
-section2 .row p {
-    font-size: 32px;
-    padding: 0 40px;
-    font-weight: 500;
-}
-.btn.btn-primary {
-    border-radius: 2px;
-    border: 0px;
-    color: #3b5998;
-    text-shadow: none;
-    background-color: #ffffff;
-}
-.btn.btn-primary:hover {
-    color: #ffffff;
-    background-color: #3b5998;
-}
-.btn-secondary {
-    background-color: #E8DFE0;
-    color: #ffffff;
-    margin: 0 0 30px;
-}
-footer {
-    font-size: 12px;
-    padding: 20px 0;
-}
-footer .col-xs-8 {
-    display: flex;
-    justify-content: flex-end;
-}
-footer ul {
-    list-style: none;
-}
-footer li img {
-    width: 32px;
-    height: 32px;
+#container .navigation .btn {
+    color: #000;
+    font-size: 2em;
+    text-transform: uppercase;
 }
