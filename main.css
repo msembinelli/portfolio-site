@@ -80,14 +80,6 @@ header .btn {
 #container .navigation .btn-about {
     padding-bottom: 150px;
 }
-/*#container .projects {
-    width: 80%;
-    padding-top: 350px;
-    padding-bottom: 20px;
-    margin: 0 auto;
-    text-align: center;
-    color: #000;
-}*/
 
 #container .projects h2 {
     text-transform: uppercase;
@@ -131,17 +123,8 @@ header .btn {
 
 .carousel-indicators li {visibility: hidden;}
 
-/* Don't display gradient bars on carousel */
-/* #container .projects .carousel-control.left, .carousel-control.right {
-    background-image: none
-} */
-
-/* Override carousel-indicators so they don't display */
-/* .carousel-indicators li {visibility: hidden;}
-.carousel-indicators .active {visibility: hidden;} */
-
 #container .about {
-    width: 80%;
+    width: 60%;
     height-max: 100%;
     padding: 150px 20px 40px;
     margin: 0 auto;
@@ -161,7 +144,7 @@ header .btn {
     word-wrap: break-word;
     font-size: 26px;
     font-family: NeutraDisplayLight;
-    text-align: center;
+    text-align: justify;
     line-height: 1.5em;
     padding-bottom: 100px;
 }
