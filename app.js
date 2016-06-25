@@ -12,7 +12,7 @@ var main = function() {
             'slow');
     });
     $('#myCarousel').carousel({
-        interval: 10000
+        interval: 7500
     });
     $('.carousel .item').each(function() {
         var next = $(this).next();
