@@ -158,9 +158,10 @@ header .btn {
 }
 
 #container .about p {
-    font-size: 22px;
+    word-wrap: break-word;
+    font-size: 26px;
     font-family: NeutraDisplayLight;
-    text-align: justify;
+    text-align: center;
     line-height: 1.5em;
     padding-bottom: 100px;
 }
